@@ -1,0 +1,10 @@
+# Server will be hosted on computer, same with client
+# One server can have many clients
+# Example: A video game server, and many players (clients)
+
+# Router routes incoming messages from devices to the
+# modem, the modem is connected to the internet by some
+# medium (eg. sat. dish, fibre optic cable)
+
+# Public vs. local IPv4 addresses (subnetting!)
+# The modem has the public IP address (IPv6 address)!

@@ -1,0 +1,24 @@
+#include <iostream>
+
+int main() {
+
+    // do while loop = do some block of code THEN
+    //                 check if you can repeat again
+    //                 if condition is true
+
+    int number;
+
+    // while(number < 0){
+    //     std::cout << "Enter a positive #: ";
+    //     std::cin >> number;
+    // }
+    do {
+        std::cout << "Enter a positive #: ";
+        std::cin >> number;
+    } while (number < 0);
+
+    std::cout << "The # is: " << number;
+
+
+    return 0;
+}
