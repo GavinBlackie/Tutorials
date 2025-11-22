@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login to Bikini Bottom</title>
+
+<style>
+    label, input {
+        margin : 10px;
+        padding: 5px;
+    }
+</style>
+
+</head>
+<body>
+    <h1>Bikini Bottom Login</h1>
+
+    <form method="post" action="/profile">
+        <!--name attr is for sending, id is for element identification-->
+
+        <label for="stupid">Is Stupid?</label>
+        <input type="checkbox" id="stupid" name="isStupid"><br>
+
+        <label for="username">Username: </label>
+        <input type="text" id="username" name="name"><br>
+
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password"><br>
+
+        <button type="submit" id="submit">Submit Form</button>
+
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello, {{user["username"]}}</title>
+</head>
+<body>
+    <h1>Hello, {{user["username"]}}!!!!!</h1>
+
+    {% for post in posts: %}
+    <div><p>{{post.author.name}} says: <b>{{post.body}}</b></p></div>
+    {% endfor %}
+
+</body>
+</html>
