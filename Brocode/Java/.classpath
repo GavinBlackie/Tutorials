@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Data Structures &amp; Algorithms/1- Stack/src"/>
+	<classpathentry kind="src" path="Data Structures &amp; Algorithms/2 - Queue/src"/>
+	<classpathentry kind="src" path="Data Structures &amp; Algorithms/3 - PriorityQueue/src"/>
+	<classpathentry kind="src" path="Data Structures &amp; Algorithms/4 - LinkedList/src"/>
+	<classpathentry kind="src" path="Data Structures &amp; Algorithms/5 - DynamicArray/src"/>
+	<classpathentry kind="src" path="FirstProject(Intellij)/src"/>
+	<classpathentry kind="output" path="Data Structures &amp; Algorithms/1- Stack/bin"/>
+</classpath>

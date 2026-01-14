@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string> // getline is in the string header!!!
 
 // cout << (insertion operator)
 // cin >> (extraction operator)

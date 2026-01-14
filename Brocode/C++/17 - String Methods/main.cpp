@@ -17,7 +17,7 @@ int main() {
 
     // Find -> finds the first index of a char or set of chars
     size_t a = name.find(' ');
-
+    
     if ( a != std::string::npos) {
         std::cout << a << std::endl;
         name.erase(a, 1); // Erase -> erase at a char for n times afterwards
