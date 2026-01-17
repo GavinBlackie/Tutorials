@@ -2,6 +2,11 @@ import java.util.Scanner;
 public class Main {
 	public static void main(String[] args) {
 		// Arithmetic operators in Java!
+		/*
+		 * +, -, *, /, %
+		 * 
+		 * ++, --
+		 */		
 		
 		int x = 10;
 		int y = 7;
@@ -66,9 +71,11 @@ public class Main {
 		m /= 3;
 		System.out.println("m = " + m);
 		
-		long p = 354;
+		long p = 2;
 		System.out.println("p = " + p);
-		p *= 28;
+		p *= 3;
 		System.out.println("p = " + p);
+		
+		
 	}
 }
