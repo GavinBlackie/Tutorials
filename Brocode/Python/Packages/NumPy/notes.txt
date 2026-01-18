@@ -1,0 +1,6 @@
+NumPy = Numerical Python
+
+- Heavy data science
+- important for AI & machine learning in Python
+- NumPy is actually written in C, extremely fast
+- can do vectorized operations
