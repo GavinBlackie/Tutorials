@@ -7,16 +7,21 @@ public class Main {
 		
 		// Using our DynamicArray
 		DynamicArray dynamicArray1 = new DynamicArray();
-		DynamicArray dynamicArray2 = new DynamicArray(5);
-		
-		System.out.println(dynamicArray1.capacity);
-		System.out.println(dynamicArray2.capacity);
-		
 		
 		dynamicArray1.add(7);
 		dynamicArray1.add(63);
 		dynamicArray1.add(91);
 		System.out.println(dynamicArray1.toString());
+		System.out.println(dynamicArray1.capacity);
+		System.out.println("Empty?: " + dynamicArray1.isEmpty());
+		
+		
+		System.out.println("\n**************\n");
+			
+		DynamicArray dynamicArray2 = new DynamicArray(5);
+		
 		System.out.println(dynamicArray2.toString());
+		System.out.println(dynamicArray2.capacity);
+		System.out.println("Empty?: " + dynamicArray2.isEmpty());
 	}
 }

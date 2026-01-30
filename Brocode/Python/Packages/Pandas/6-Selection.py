@@ -18,7 +18,7 @@ df = pd.read_csv("Brocode/Python/Packages/Pandas/data.csv", index_col="Name")
 print(df.loc["Pikachu"])
 
 # : means "everything from HERE to THERE"
-print(df.loc["Charizard":"Blastoise", ["Height", "Weight"]])
+print(df.loc["Charizard":"Blastoise", ["Height", "Weight"]].index)
 
 # Print everything from 0 to 10 (second # is exclusive)
 print(df.iloc[0:11])

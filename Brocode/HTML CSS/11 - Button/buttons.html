@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11 - Buttons</title>
+</head>
+<body>
+
+    <!-- style= is inline CSS !!! -->
+
+    <a href="https://darksouls3.wiki.fextralife.com/Dark+Souls+3+Wiki">
+    <button style="font-size:25; background-color:grey; 
+    color:lightblue; border-radius:5px;">Click Me</button>
+    </a>
+
+    <a href="buttons2.html">
+    <button style="font-size:25; background-color:grey; 
+    color:lightpink; border-radius:5px;">Click Me</button>
+    </a>
+
+    <button onclick="doSomething()" style="font-size:25; background-color:grey; 
+    color: yellow; border-radius:5px;">Banana Butto</button>
+
+    <p id="greeting">Hello</p>
+
+    <script>
+        function doSomething() {
+            console.log("Banana!!!");
+
+            document.getElementById("greeting").innerHTML = "Banana";
+            
+        }
+    </script>
+
+
+</body>
+</html>
