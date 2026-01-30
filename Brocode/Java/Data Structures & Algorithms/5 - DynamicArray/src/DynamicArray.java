@@ -7,7 +7,7 @@ public class DynamicArray {
 	 * a static array representing the actual static array container."
 	 */
 	
-	int size;
+	int size = 0;
 	int capacity = 10;
 	Object[] array;
 	
@@ -31,7 +31,15 @@ public class DynamicArray {
 	}
 	
 	public void insert(int index, Object data) {
+		if (size >= capacity) {
+			grow();
+		}
 		
+		// Shift every element to the right for the insertion!
+		for (int iArr = size; iArr > index; iArr--) {
+			array[iArr] = array[iArr + 1];
+		}
+		array[index] = data; // Insert the new data!
 	}
 	
 	public int search(Object data) {

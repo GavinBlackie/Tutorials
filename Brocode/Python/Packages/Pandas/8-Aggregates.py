@@ -61,3 +61,6 @@ print(group["Height"].max())
 
 print("\Count: ")
 print(group["Height"].count())
+
+print("\Median: ")
+print(group["Height"].median())

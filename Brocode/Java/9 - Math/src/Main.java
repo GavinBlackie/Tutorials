@@ -55,6 +55,7 @@ public class Main {
 				isPrompting = false;
 			} catch (InputMismatchException ex) {
 				System.out.print("Invalid input, re-enter a: ");
+				scanner.nextLine(); // Flush buffer
 			}
 		}
 		
@@ -68,13 +69,13 @@ public class Main {
 				isPrompting = false;
 			} catch (InputMismatchException ex) {
 				System.out.print("Invalid input, re-enter b: ");
+				scanner.nextLine(); // Flush buffer
 			}
 		}
-		b = scanner.nextDouble();
 		
 		c = Math.sqrt( (Math.pow(a, 2) + Math.pow(b, 2)) );
 		
-		
+		System.out.println("The hypotenuse is: " + c + " cm");
 		
 		scanner.close();
 	}
