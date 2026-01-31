@@ -1,0 +1,17 @@
+/*NOTE: no commas , !!!
+two types: text-shadow, and box-shadow
+*/
+
+h1 {
+    text-shadow: 3px 2px 1px red, -3px -3px 5px rgb(184, 32, 163);
+    background-color: aliceblue;
+}
+
+#box1 {
+    width:100px;
+    height:100px;
+    background-color: whitesmoke;
+
+    /*x offset, y offset, blur range, color*/
+    box-shadow: 3px 3px 5px;
+}
