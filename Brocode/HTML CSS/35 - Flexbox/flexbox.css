@@ -1,0 +1,35 @@
+.container {
+    display:flex;
+    border: 5px solid black;
+    height: 90vh;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    font-size:8em;
+    text-align: center;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+#box1 {
+    background-color: rgb(230, 66, 66);
+}
+
+#box2 {
+    background-color: yellow;
+    width: 300px;
+}
+
+#box3 {
+    background-color: rgb(83, 192, 62);
+}
+
+#box4 {
+    background-color: lightblue;
+}
