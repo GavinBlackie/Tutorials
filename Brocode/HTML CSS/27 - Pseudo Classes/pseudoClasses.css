@@ -1,0 +1,39 @@
+/*
+Pseudo Class = Sets properties on special 
+               "pseudo states"
+*/
+
+a:link {
+    color: hsl(61, 46%, 20%);
+}
+a:visited {
+    color: hsl(310, 94%, 35%)
+}
+a:hover {
+    color: hsl(194, 44%, 46%);
+    font-size: 1.1em;
+}
+a:active {
+    color: red;
+    font-size: 1.1em;
+}
+
+body > a:not(:hover) {
+    color: hsl(331, 13%, 45%)
+}
+
+
+li:nth-child(2n) {
+    background-color: yellow;
+    width: 200px;
+}
+
+
+#greeting p {
+    background-color: hsl(209, 53%, 62%);
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+    display: block;
+}
