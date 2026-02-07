@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>26 - Combinators</title>
+    <link rel="stylesheet" href="combinators.css">
+</head>
+<body>
+
+    <!-- 
+        Combinators = explaination of relationship
+                      between listed selectors
+
+                      = descendant
+                    > = child
+                    ~ = general sibling
+                    + = adjacent sibling
+
+                    selector > selector
+                    div > p => apply CSS to "p"s inside divs
+    -->
+
+    <div id="container">
+        <p>This is #1</p>
+        <p>This is #2</p>
+        <div>
+            <p>This is #3</p>
+        </div>
+    </div>
+
+    <p>This is #4</p>
+    <p>This is #5</p>
+
+
+    <div id="container2">
+        <ul>
+            <li>Spongebob Squarepants</li>
+            <li>Patrick Star</li>
+            <li>Squidward Tentacles</li>
+            <li>Eugine Krabs</li>
+            <li>Sheldon Plankton</li>
+            <li>Sandy Cheeks</li>
+        </ul>
+
+    </div>
+
+</body>
+</html>
