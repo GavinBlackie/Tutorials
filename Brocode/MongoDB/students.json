@@ -1,0 +1,62 @@
+[{
+  "_id": {
+    "$oid": "69af2fb9362aa3eba2b71236"
+  },
+  "name": "Spongebob",
+  "age": 30,
+  "gpa": 2.5,
+  "fullTime": false
+},
+{
+  "_id": {
+    "$oid": "69af303e362aa3eba2b71237"
+  },
+  "name": "Patrick",
+  "age": 35,
+  "gpa": 2.3,
+  "fullTime": false
+},
+{
+  "_id": {
+    "$oid": "69af303e362aa3eba2b71238"
+  },
+  "name": "Squidward",
+  "age": 43,
+  "gpa": 3.4,
+  "fullTime": false
+},
+{
+  "_id": {
+    "$oid": "69af303e362aa3eba2b71239"
+  },
+  "name": "Sandy",
+  "age": 27,
+  "gpa": 3.9,
+  "fullTime": true
+},
+{
+  "_id": {
+    "$oid": "69af303e362aa3eba2b7123a"
+  },
+  "name": "Gary",
+  "age": 18,
+  "gpa": 3.2,
+  "fullTime": true
+},
+{
+  "_id": {
+    "$oid": "69af30af362aa3eba2b7123b"
+  },
+  "name": "Larry Lobster",
+  "age": 31,
+  "gpa": 1.9,
+  "registerDate": {
+    "$date": "2026-03-09T20:43:57.138Z"
+  },
+  "address": {
+    "street": "123 Fake St.",
+    "city": "Bikini Bottom",
+    "zip": "KRA-BS2"
+  },
+  "fullTime": false
+}]

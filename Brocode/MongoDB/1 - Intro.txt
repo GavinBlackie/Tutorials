@@ -1,0 +1,10 @@
+NoSQL -> "Not Only Structured Query Language"
+
+database => collection => document
+
+
+database = group of collections
+
+collection = group of documents
+
+document = a BSON object (Binary "JavaScript" Object Notation)
