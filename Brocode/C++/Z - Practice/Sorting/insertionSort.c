@@ -35,8 +35,6 @@ int* insertionSort(int* arr, int n) {
         int jArr = iArr - 1;    // Keeps track of immediate element before (the one in the SORTED portion)
         int prevElem = *(arr + jArr);
 
-        printf("Key: %d\n", keyElem);
-
         // If keyElem is less than prevElem, it is not sorted,
         // try to shift the sorted elements however many times are necessary.
         // This looks at the elements to shift going in the LEFT direction instead of right!

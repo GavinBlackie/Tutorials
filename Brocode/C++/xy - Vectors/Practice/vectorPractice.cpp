@@ -31,7 +31,7 @@ int main() {
         dimensions.push_back(counter); 
         counter ++;
     }
-
+    
     printVector(dimensions);
 
     dimensions.erase(dimensions.begin() + 1); // Delete the second element
