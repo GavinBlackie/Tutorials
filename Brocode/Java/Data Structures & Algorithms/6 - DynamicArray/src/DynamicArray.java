@@ -5,6 +5,9 @@ public class DynamicArray {
 	 * "A dynamic array shall have a size representing used slots, 
 	 * a capacity representing the total malloc'd space, and
 	 * a static array representing the actual static array container."
+	 *
+	 * Dynamic Arrays are also called Vectors in C++!!!
+	 *
 	 */
 	
 	int size = 0;
