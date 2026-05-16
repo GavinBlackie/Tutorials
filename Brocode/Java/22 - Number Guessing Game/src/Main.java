@@ -20,6 +20,14 @@ public class Main {
 		
 		boolean isPlayingGame = true;
 		
+		// Will use a map to decide if the user wants to keep playing or not!!
+		// https://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html
+		final Map<String, Boolean> yesNoMap = new HashMap<String, Boolean>();
+		yesNoMap.put("yes", true);
+		yesNoMap.put("y", true);
+		yesNoMap.put("no", false);
+		yesNoMap.put("n", false);
+		
 		/* Need a random object !!
 		* But you don't need to close it like the scanner,
 		* just let it go out of scope :) */
@@ -27,9 +35,12 @@ public class Main {
 		Scanner scanner = new Scanner(System.in);
 		
 		while (isPlayingGame) {
-			
 			int min = 0, max = 10;
-			int guess = 0, answer = random.nextInt(min, max);
+			int guess = 0, answer = random.nextInt(min, max + 1); // + 1 so that its max inclusive!
+			
+//			for (int i = 0; i < 100; i++) {
+//				System.out.println(random.nextInt(min, max + 1));
+//			}
 			
 			// Get the guess from the user
 			guess = extractGuess(guess, min, max, scanner);
@@ -42,14 +53,6 @@ public class Main {
 					"You lost. Would you like to play again?(Y/N): ";
 			System.out.print(endMsg);
 			
-			// Will use a map to decide if the user wants to keep playing or not!!
-			// https://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html
-			final Map<String, Boolean> yesNoMap = new HashMap<String, Boolean>();
-			yesNoMap.put("yes", true);
-			yesNoMap.put("y", true);
-			yesNoMap.put("no", false);
-			yesNoMap.put("n", false);
-			
 			String userInput = scanner.next();
 			userInput = userInput.toLowerCase();
 			userInput = userInput.strip();
@@ -59,10 +62,7 @@ public class Main {
 			if (yesNoMap.get(userInput) == false) {
 				isPlayingGame = false;
 			}
-			
-			//scanner.nextLine(); // flush just in case
 		}
-		
 		scanner.close();
 	}
 	
