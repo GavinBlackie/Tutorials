@@ -23,9 +23,9 @@ public class Main {
 				{0}
 		};
 		
-		for (int iCol = 0; iCol < matrix.length; iCol++) {
-			for (int jRow = 0; jRow < matrix[iCol].length; jRow++) {
-				System.out.print(matrix[iCol][jRow] + " ");
+		for (int iRow = 0; iRow < matrix.length; iRow++) {
+			for (int jCol = 0; jCol < matrix[iRow].length; jCol++) {
+				System.out.print(matrix[iRow][jCol] + " ");
 			}
 			System.out.println();
 		}
