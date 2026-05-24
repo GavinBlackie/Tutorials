@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 public class BankApp {
@@ -33,7 +34,7 @@ public class BankApp {
 				// this.showAllAccounts();
 				break;
 			case 2:
-				//this.selectAccount();
+				this.selectAccount();
 				break;
 			case 3:
 				this.displayHelp();
@@ -44,6 +45,20 @@ public class BankApp {
 		}
 	}
 	
+	// Procedure to make the user select an account from the Bank
+	private void selectAccount() {
+		String userInput;
+		System.out.print("Enter the account holder name: ");
+		this.scanner.nextLine();
+		userInput = this.scanner.nextLine();
+		
+		Account account = linearSearchAccount(this.bank.getAccounts(), userInput);
+		
+		System.out.println(account.getOwner());
+		
+	}
+	
+	// Procedure to display the help menu
 	private void displayHelp() {
 		System.out.println("""
 				
@@ -106,5 +121,15 @@ public class BankApp {
 			}
 		}
 		return isFound;
+	}
+	// Linear search varient for account holder names
+	private static Account linearSearchAccount(ArrayList<Account> arr, String target) {
+		Account foundAccount = null;
+		for (Account account : arr) {
+			if (account.getOwner().equals(target)) {
+				return account;
+			}
+		}
+		return foundAccount;
 	}
 }
