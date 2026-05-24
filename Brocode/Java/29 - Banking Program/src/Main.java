@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class Main {
 	public static void main(String[] args) {
 		
@@ -9,26 +8,13 @@ public class Main {
 		//
 		// Will program the whole thing by myself before watching
 		// the video tutorial as practice! :)
-		Scanner scanner = new Scanner(System.in);
 		
-		displayMenu();
-		int userChoice = scanner.nextInt();
+		BankApp bankApp = new BankApp(); 
 		
-		scanner.close();
-	}
-	
-	// Procedure to display the menu page
-	static void displayMenu() {
-		System.out.print("""
-				************************
-				MR. KRAB's BANK PROGRAM
-				By: Gavin
-				************************
-				1. Show Balance
-				2. Deposit
-				3. Withdrawl
-				4. Exit
-				************************
-				Enter your choice (1-4):""");
+		while (bankApp.getIsRunning() == true) {
+			bankApp.extractChoice(bankApp.MAIN_MENU_CHOICES, new MainMenuMsg());
+			bankApp.processMainMenuChoice();
+		}
+		System.out.println("Thanks for using the amazing Bank program!");
 	}
 }
