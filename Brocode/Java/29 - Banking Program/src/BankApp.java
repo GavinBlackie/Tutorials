@@ -46,9 +46,11 @@ public class BankApp {
 				validateChoice(choices); // validate the selected choice!
 				isPrompting = false; // Prompt was successful here!
 			} catch (InputMismatchException e) {
-				msg.invalidNumber();
-			} catch (IllegalArgumentException e) {
 				msg.notANumber();
+				this.scanner.nextLine(); // flush buffer
+			} catch (IllegalArgumentException e) {
+				msg.invalidNumber();
+				this.scanner.nextLine(); // flush buffer
 			}
 		}
 		return this.userChoice;
