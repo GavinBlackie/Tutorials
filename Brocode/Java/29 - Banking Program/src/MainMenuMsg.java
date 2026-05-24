@@ -10,9 +10,9 @@ public class MainMenuMsg implements Message{
 				MR. KRAB's BANK PROGRAM
 				By: Gavin
 				************************
-				1. Show Balance
-				2. Deposit
-				3. Withdrawl
+				1. Show all accounts
+				2. Select Account
+				3. Help
 				4. Exit
 				************************
 				Enter your choice (1-4): """);

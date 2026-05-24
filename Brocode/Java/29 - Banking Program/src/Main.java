@@ -10,11 +10,7 @@ public class Main {
 		// the video tutorial as practice! :)
 		
 		BankApp bankApp = new BankApp(); 
-		
-		while (bankApp.getIsRunning() == true) {
-			bankApp.extractChoice(bankApp.MAIN_MENU_CHOICES, new MainMenuMsg());
-			bankApp.processMainMenuChoice();
-		}
+		bankApp.mainMenu();
 		System.out.println("Thanks for using the amazing Bank program!");
 	}
 }

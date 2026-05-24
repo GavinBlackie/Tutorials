@@ -1,35 +1,61 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 public class BankApp {
-	public final int[] MAIN_MENU_CHOICES = {1, 2, 3, 4};
+	private final int[] MAIN_MENU_CHOICES = {1, 2, 3, 4};
 	
 	// Apparently its a good idea to not close a scanner
 	// with System.in as its source!
 	// https://www.w3schools.com/Java/ref_scanner_close.asp
 	private Scanner scanner;
-	
 	private boolean isRunning;
 	private int userChoice;
+	private Bank bank;
 	
 	public BankApp() {
 		this.scanner = new Scanner(System.in);
 		this.isRunning = true;
 		this.userChoice = 0;
+		this.bank = new Bank();
+	}
+	
+	// Runs the entire Bank App
+	public void mainMenu() {
+		while (this.isRunning == true) {
+			this.extractChoice(MAIN_MENU_CHOICES, new MainMenuMsg());
+			this.processMainMenuChoice();
+		}
 	}
 	
 	// Procedure to process a user's validated main menu choice
-	public void processMainMenuChoice() {
+	private void processMainMenuChoice() {
 		switch (this.userChoice) {
-		case 1:
-			break;
-		case 2:
-			break;
-		case 3:
-			break;
-		case 4:
-			isRunning = false;
-			break;
+			case 1:
+				// this.showAllAccounts();
+				break;
+			case 2:
+				//this.selectAccount();
+				break;
+			case 3:
+				this.displayHelp();
+				break;
+			case 4:
+				isRunning = false;
+				break;
 		}
+	}
+	
+	private void displayHelp() {
+		System.out.println("""
+				
+			Welcome to Mr. Krab's Bank App!
+			Enter in different numbers to navigate the menus,
+			select accounts, and add money or withdrawl from them.
+			
+			"I like Money" - Mr Krabs
+		""");
+		
+		System.out.print("Type anything to go back to main menu: ");
+		this.scanner.next();
 	}
 	
 	/* Extracts a menu choice from the user.
@@ -37,7 +63,7 @@ public class BankApp {
 	 * it based on the given "callback" function.
 	 * Uses this BankApp's userChoice field! (also returns it)
 	 */
-	public int extractChoice(int[] choices, Message msg) {
+	private int extractChoice(int[] choices, Message msg) {
 		boolean isPrompting = true;
 		while (isPrompting) {
 			try {
@@ -80,10 +106,5 @@ public class BankApp {
 			}
 		}
 		return isFound;
-	}
-	
-	// Accessor for isRunning field!
-	public boolean getIsRunning() {
-		return this.isRunning;
 	}
 }
