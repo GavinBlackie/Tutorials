@@ -5,7 +5,7 @@ public class BankApp {
 	private final int[] MAIN_MENU_CHOICES = {1, 2, 3, 4};
 	
 	// Apparently its a good idea to not close a scanner
-	// with System.in as its source!
+	// with System.in as its source (especially inside a class)!
 	// https://www.w3schools.com/Java/ref_scanner_close.asp
 	private Scanner scanner;
 	private boolean isRunning;
@@ -31,7 +31,7 @@ public class BankApp {
 	private void processMainMenuChoice() {
 		switch (this.userChoice) {
 			case 1:
-				// this.showAllAccounts();
+				this.displayAllAccounts();
 				break;
 			case 2:
 				this.selectAccount();
@@ -58,16 +58,25 @@ public class BankApp {
 		} catch (NullPointerException e) {
 			System.out.println("An account under that name does not exist. ");
 		} finally {
-			System.out.print("Type anything to go back to main menu: ");
-			this.scanner.next();
+			this.promptContinue();
 		}
 	}
 	
+	// Displays all accounts in this BankApp's bank
+	private void displayAllAccounts() {
+		ArrayList<Account> accounts = this.bank.getAccounts();
+		
+		for (int iAcc = 0; iAcc < accounts.size(); iAcc++) {
+			displayAccount(accounts.get(iAcc));
+		}
+		this.promptContinue(); // delay next output so this func's output is more clear!
+	}
+	
 	// Basic procedure to display account info
-	private void displayAccount(Account account) {
+	private static void displayAccount(Account account) {
 		System.out.printf("\n--- Account ---\n");
 		System.out.printf("Owner: %s\n", account.getOwner());
-		System.out.printf("Balance: %s\n", account.getBalance());
+		System.out.printf("Balance: %.2f\n", account.getBalance());
 		System.out.printf("\n---------------\n");
 	}
 	
@@ -82,7 +91,13 @@ public class BankApp {
 			"Enjoy the bank, because I like Money" - Mr Krabs
 		""");
 		
-		System.out.print("Type anything to go back to main menu: ");
+		this.promptContinue();
+	}
+	
+	// Simple prompt procedure to prompt user to continue 
+	// (used to delay outputs) :-)
+	private void promptContinue() {
+		System.out.print("Type anything to continue: ");
 		this.scanner.next();
 	}
 	
