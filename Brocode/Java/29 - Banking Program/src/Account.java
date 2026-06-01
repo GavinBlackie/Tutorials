@@ -12,6 +12,10 @@ public class Account {
 		this.balance = balance;
 	}
 	
+	public double getBalance() {
+		return this.balance;
+	}
+	
 	public String getOwner() {
 		return this.owner;
 	}

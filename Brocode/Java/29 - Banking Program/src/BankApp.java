@@ -52,10 +52,23 @@ public class BankApp {
 		this.scanner.nextLine();
 		userInput = this.scanner.nextLine();
 		
-		Account account = linearSearchAccount(this.bank.getAccounts(), userInput);
-		
-		System.out.println(account.getOwner());
-		
+		try {
+			Account account = linearSearchAccount(this.bank.getAccounts(), userInput);
+			displayAccount(account);
+		} catch (NullPointerException e) {
+			System.out.println("An account under that name does not exist. ");
+		} finally {
+			System.out.print("Type anything to go back to main menu: ");
+			this.scanner.next();
+		}
+	}
+	
+	// Basic procedure to display account info
+	private void displayAccount(Account account) {
+		System.out.printf("\n--- Account ---\n");
+		System.out.printf("Owner: %s\n", account.getOwner());
+		System.out.printf("Balance: %s\n", account.getBalance());
+		System.out.printf("\n---------------\n");
 	}
 	
 	// Procedure to display the help menu
@@ -66,7 +79,7 @@ public class BankApp {
 			Enter in different numbers to navigate the menus,
 			select accounts, and add money or withdrawl from them.
 			
-			"I like Money" - Mr Krabs
+			"Enjoy the bank, because I like Money" - Mr Krabs
 		""");
 		
 		System.out.print("Type anything to go back to main menu: ");
