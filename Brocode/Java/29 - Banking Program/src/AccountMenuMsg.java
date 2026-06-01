@@ -7,12 +7,11 @@ public class AccountMenuMsg implements Message{
 		System.out.print("""
 				
 				************************
-				1. Show Balance
-				2. Deposit
-				3. Withdrawl
-				4. Return to Main Menu
+				1. Deposit
+				2. Withdrawl
+				3. Return to Main Menu
 				************************
-				Enter your choice (1-4): """);
+				Enter your choice (1-3): """);
 		System.out.print(" "); // Spaces don't work after the initial message for some reason 
 	}
 	

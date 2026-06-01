@@ -3,18 +3,21 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 public class BankApp {
 	private final int[] MAIN_MENU_CHOICES = {1, 2, 3, 4};
+	private final int[] ACCOUNT_MENU_CHOICES = {1, 2, 3};
 	
 	// Apparently its a good idea to not close a scanner
 	// with System.in as its source (especially inside a class)!
 	// https://www.w3schools.com/Java/ref_scanner_close.asp
 	private Scanner scanner;
 	private boolean isRunning;
+	private boolean runningAccountMenu;
 	private int userChoice;
 	private Bank bank;
 	
 	public BankApp() {
 		this.scanner = new Scanner(System.in);
 		this.isRunning = true;
+		this.runningAccountMenu = false;
 		this.userChoice = 0;
 		this.bank = new Bank();
 	}
@@ -27,7 +30,20 @@ public class BankApp {
 		}
 	}
 	
+	// Runs the account menu for a given account object
+	private void accountMenu(Account account) {
+		this.runningAccountMenu = true;
+		while (this.runningAccountMenu == true) {
+			displayAccount(account);
+			
+			this.extractChoice(ACCOUNT_MENU_CHOICES, new AccountMenuMsg());
+			this.processAccountMenuChoice(account);
+		}
+	}
+	
 	// Procedure to process a user's validated main menu choice
+	// potential TODO: change each case number to an Enumeration
+	//				   for better code readability & clarity
 	private void processMainMenuChoice() {
 		switch (this.userChoice) {
 			case 1:
@@ -45,7 +61,51 @@ public class BankApp {
 		}
 	}
 	
+	// Procedure for processing account menu user input :0 :)
+	private void processAccountMenuChoice(Account account) {
+		double amount = 0.0;
+		switch (this.userChoice) {
+			case 1:
+				// Deposit an amount
+				try {
+					amount = obtainAmount("deposit");
+					account.deposit(amount);
+				} catch (AccountException e) {
+					System.out.println(e.msg);
+				}
+				break;
+			case 2:
+				// Withdraw an amount
+				try {
+					amount = obtainAmount("withdraw");
+					account.withdraw(amount);
+				} catch (AccountException e) {
+					System.out.println(e.msg);
+				}
+				break;
+			case 3:
+			default:
+				System.out.println("\nReturning to the main menu...\n");
+				this.runningAccountMenu = false;
+				break;
+		}
+	}
+	
+	// Function to get a specified amount from the user for either
+	// withdrawing or depositing to an account!
+	private double obtainAmount(String actionWord) {
+		double amount = 0.0;
+		try {
+			System.out.println("Enter the amount to ".concat(actionWord) + ": ");
+			amount = scanner.nextDouble();
+		} catch (InputMismatchException e) {
+			System.out.println("That's not a valid number, silly!");
+		}
+		return amount;
+	}
+	
 	// Procedure to make the user select an account from the Bank
+	// Will initiate the account menu if an account is properly selected
 	private void selectAccount() {
 		String userInput;
 		System.out.print("Enter the account holder name: ");
@@ -54,10 +114,9 @@ public class BankApp {
 		
 		try {
 			Account account = linearSearchAccount(this.bank.getAccounts(), userInput);
-			displayAccount(account);
+			accountMenu(account);
 		} catch (NullPointerException e) {
 			System.out.println("An account under that name does not exist. ");
-		} finally {
 			this.promptContinue();
 		}
 	}
@@ -76,7 +135,7 @@ public class BankApp {
 	private static void displayAccount(Account account) {
 		System.out.printf("\n--- Account ---\n");
 		System.out.printf("Owner: %s\n", account.getOwner());
-		System.out.printf("Balance: %.2f\n", account.getBalance());
+		System.out.printf("Balance: %.2f", account.getBalance());
 		System.out.printf("\n---------------\n");
 	}
 	
