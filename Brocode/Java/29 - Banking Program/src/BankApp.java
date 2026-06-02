@@ -96,7 +96,7 @@ public class BankApp {
 	private double obtainAmount(String actionWord) {
 		double amount = 0.0;
 		try {
-			System.out.println("Enter the amount to ".concat(actionWord) + ": ");
+			System.out.print("Enter the amount to ".concat(actionWord) + ": ");
 			amount = scanner.nextDouble();
 		} catch (InputMismatchException e) {
 			System.out.println("That's not a valid number, silly!");
