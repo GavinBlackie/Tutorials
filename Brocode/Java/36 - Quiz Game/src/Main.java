@@ -19,16 +19,22 @@ public class Main {
 		// ---- Initialize variables ----
 		Queue<QuizQuestion> questions = new LinkedList<QuizQuestion>();
 		loadQuestions(questions); // Load all questions into the Question Queue
+		int numQuestions = questions.size();
 		score = 0;
 		scanner = new Scanner(System.in);
 		
 		// ----- Prompt all the questions -----
 		
-		QuizQuestion currentQuestion = questions.peek();
-		processQuestion(currentQuestion); // Process it (display it, get user input, adjust score)
+		while (questions.isEmpty() == false) {
+			QuizQuestion currentQuestion = questions.poll();
+			processQuestion(currentQuestion); // Process it (display it, get user input, adjust score)
+		}
 		
 		// ----- Display score -----
 		
+		System.out.println("**********************************************");
+		System.out.println("\tScore: " + score + " out of " + numQuestions);
+		System.out.println("**********************************************");
 		
 		scanner.close();
 	}
@@ -43,11 +49,92 @@ public class Main {
 			4. Bee
 			"""
 		);
-		test.getOptions().put(1, false);
+		test.getOptions().put(1, false); // this part could be improved to reduce redundancy, perhaps take question option strings as an array in the constructor?
 		test.getOptions().put(2, false);
 		test.getOptions().put(3, true);
 		test.getOptions().put(4, false);
 		questions.offer(test);	
+		
+		// Sort-of using some of the tutorial's questions here 
+		// (but my whole program logic is completely different :0 )
+		// Also, this uses dynamic options sizes because I'm not bound
+		// to strictly using a 2D array like BroCode did in his tutorial! :-)
+		QuizQuestion question2 = new QuizQuestion("What is the main function of a router?:", 
+			"""
+			1. Storing files
+			2. Encrypting data
+			3. Directing internet traffic
+			4. Managing passwords
+			5. All of the above
+			"""
+		);
+		question2.getOptions().put(1, false);
+		question2.getOptions().put(2, false);
+		question2.getOptions().put(3, true);
+		question2.getOptions().put(4, false);
+		question2.getOptions().put(5, false);
+		questions.add(question2);
+		
+		QuizQuestion question3 = new QuizQuestion("Which part of the computer is considered the brain?:", 
+				"""
+				1. The 
+				2. RAM
+				3. SSD/HDD
+				4. CPU
+				5. GPU
+				6. None of the above
+				"""
+			);
+		question3.getOptions().put(1, false);
+		question3.getOptions().put(2, false);
+		question3.getOptions().put(3, false);
+		question3.getOptions().put(4, true);
+		question3.getOptions().put(5, false);
+		questions.add(question3);
+		
+		QuizQuestion question4 = new QuizQuestion("What year was facebook launched?: ", 
+				"""
+				1. 2000
+				2. 2004
+				3. 1999
+				"""
+			);
+		question4.getOptions().put(1, false);
+		question4.getOptions().put(2, true);
+		question4.getOptions().put(3, false);
+		questions.add(question4);
+		
+		QuizQuestion question5 = new QuizQuestion("Who is known as the father of computing?: ", 
+				"""
+				1. Joe Biden
+				2. Steve Jobs
+				3. Bill Gates
+				4. John Skibidi
+				5. Alan Turing
+				6. Charles Babbing
+				"""
+			);
+		question5.getOptions().put(1, false);
+		question5.getOptions().put(2, false);
+		question5.getOptions().put(3, false);
+		question5.getOptions().put(4, false);
+		question5.getOptions().put(5, false);
+		question5.getOptions().put(6, true);
+		questions.add(question5);
+		
+		QuizQuestion question6 = new QuizQuestion("What was the first commercially available programming language?: ", 
+				"""
+				1. COBOL
+				2. C
+				3. Assembly
+				4. Fortran
+				"""
+			);
+		question6.getOptions().put(1, false);
+		question6.getOptions().put(2, false);
+		question6.getOptions().put(3, false);
+		question6.getOptions().put(4, true);
+		questions.add(question6);
 	}
 	
 	// A procedure to display a single question
@@ -69,16 +156,17 @@ public class Main {
 				validateChoice(userChoice, question);
 				isPrompting = false;
 			} catch (InputMismatchException e) {
-				System.out.println("That's not a number, silly! ");
+				System.out.println("That's not a number, silly! \n");
 			} catch (IllegalArgumentException e) {
-				System.out.println(e.toString());
+				System.out.println(e.getMessage() + "\n");
 			} finally {
 				scanner.nextLine(); // flush input buffer
 			}
 		}
 		
-		System.out.println( question.getOptions().get(userChoice) );
-		// ? :
+		// Adjust the score based on the value in the options map!
+		// System.out.println( question.getOptions().get(userChoice) );
+		score += (question.getOptions().get(userChoice) == true) ? 1 : 0; 
 	}
 	
 	// Procedure to validate that a given integer is one of
