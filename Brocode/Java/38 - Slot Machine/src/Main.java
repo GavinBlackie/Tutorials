@@ -2,28 +2,31 @@ import java.util.Scanner;
 import java.util.Random;
 import java.util.InputMismatchException;
 public class Main {
+	// Yes, this could also be done with the scanner
+	// (this is just to reduce parameters in methods, but
+	// more importantly to use only ONE instance of random where its needed)
+	private static Random random = new Random();
+	
 	public static void main(String[] args) {
 		
 		// ----- Java Slot Machine -----
 		
 		// Declare vars
 		Scanner scanner = new Scanner(System.in);
-		Random random = new Random();
 		double balance = 100.0f;
 		double bet = 0.0f;
 		double payout = 0.0f;
 		final String BET_MSG     = "Enter the bet amount: ";
-		String[] row; // will contain the emojji slot symbols
+		final String[] SYMBOLS = {"🍒", "🍉", "🍎", "🍓", "🍋"};
+		String[] row = new String[3]; // will contain the emojji slot symbols
 		
 		// Display welcome
-		System.out.println("***********************");
-		System.out.println("Welcome to Java Slots!");
-		System.out.println("Symbols: 🍒 🍉 🍎 🍓 🍋");
-		System.out.println("***********************");
+		displayWelcome();
 		
 		// Play as long as balance is above 0, or when the
 		// user has specified they don't want to play another round
 		while (balance > 0.0f) {
+			System.out.println("Current balance: $" + balance);
 			// Extract bet amount, validate that Bet > Balance and Bet > 0
 			bet = extractBet(scanner, BET_MSG, balance);
 			
@@ -31,16 +34,97 @@ public class Main {
 			balance -= bet;
 			
 			// -- Spin Row, Print Row --
-		
+			spinRow(row, SYMBOLS);
+			displayRow(row);
+			
 			// Give payout
-		
+			payout = calcPayout(row, bet);
+			
+			if (payout > 0) {
+				System.out.println("You won $" + payout);
+				balance += payout;
+			} else {
+				System.out.println("You lose :(");
+			}
+			
 			// Ask to play again
-			System.out.println("");
+			//System.out.println("Would you like to keep playing?(Y/N): ");
+			
 		}
 		// Display exit message
-		System.out.println("");
+		System.out.println("Thanks for playing Java Slots!");
 		
 		scanner.close();
+	}
+	
+	// Procedure to spin the row! (Assumes symbols array is larger than row)
+	private static void spinRow(String[] row, String[] symbols) {
+		for (int iRow = 0; iRow < row.length; iRow++) {
+			int randIndex = random.nextInt(0, symbols.length);
+			String randSymbol = symbols[randIndex];
+			row[iRow] = randSymbol;
+		}
+	}
+	
+	// Function that calculates and returns the payout amount, if
+	// given the current row symbols and bet amount
+	private static double calcPayout(String[] row, double bet) {
+		
+		// Just going to do a basic approach for this one:
+		// (can be dynamically improved with frequency calculations)
+		if (row[0].equals(row[1]) && row[1].equals(row[2])) {
+			return switch(row[0]) { // return switch!
+				case "🍒" -> bet * 3;
+				case "🍉" -> bet * 4;
+				case "🍎" -> bet * 5;
+				case "🍓" -> bet * 10;
+				case "🍋" -> bet * 20;
+				default -> 0;
+			};
+		}
+		
+		return 0;
+	}
+	
+//	// Function to find frequencies of strings inside a string array!
+//	// credit to this: https://www.geeksforgeeks.org/dsa/counting-frequencies-of-array-elements/
+//	//  for helping with concepts on how to actually keep track of "visited" indexes
+//	private static int[] calcFreq(String[] arr) {
+//		int[] freq = new int[arr.length];
+//		boolean[] visited = new boolean[arr.length];
+//		
+//		for (int iArr = 0; iArr < arr.length; iArr++) {
+//			if (visited[iArr] == true) continue; // skip already processed elements
+//			
+//			// Store this unique strings frequency!
+//			int count = 1;
+//			
+//			// Increment the frequency
+//			for (int jArr = iArr + 1; jArr < arr.length; jArr++) {
+//				 
+//			}
+//			
+//		}
+//		
+//		return freq;
+//	}
+	
+	// Procedure func to display welcome
+	private static void displayWelcome() {
+		System.out.println("***************************");
+		System.out.println("\tWelcome to Java Slots!");
+		System.out.println("\tSymbols: 🍒 🍉 🍎 🍓 🍋");
+		System.out.println("***************************");
+	}
+	
+	// Slot row display func
+	private static void displayRow(String[] row) {
+		System.out.println("\n***************************");
+		System.out.println("SLOTS: " + String.join(" | ", row));
+		System.out.println("***************************\n");
+//		for (String str : row) {
+//			System.out.print(str + " ");
+//		}
 	}
 	
 	// Custom function I made to extract a floating point double
