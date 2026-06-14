@@ -19,6 +19,7 @@ public class Main {
 		final String BET_MSG     = "Enter the bet amount: ";
 		final String[] SYMBOLS = {"🍒", "🍉", "🍎", "🍓", "🍋"};
 		String[] row = new String[3]; // will contain the emojji slot symbols
+		String playAgain = "Y";
 		
 		// Display welcome
 		displayWelcome();
@@ -48,11 +49,17 @@ public class Main {
 			}
 			
 			// Ask to play again
-			//System.out.println("Would you like to keep playing?(Y/N): ");
+			System.out.println("Would you like to keep playing?(Y/N): ");
+			scanner.nextLine(); // flush
+			playAgain = scanner.nextLine().toUpperCase();
+			if (!playAgain.equals("Y")) {
+				break;
+			}
 			
 		}
 		// Display exit message
 		System.out.println("Thanks for playing Java Slots!");
+		System.out.println("Your final balance is: $" + balance);
 		
 		scanner.close();
 	}
@@ -79,6 +86,27 @@ public class Main {
 				case "🍎" -> bet * 5;
 				case "🍓" -> bet * 10;
 				case "🍋" -> bet * 20;
+				default -> 0;
+			};
+		}
+		// For two matching!
+		else if (row[0].equals(row[1])) {
+			return switch(row[0]) {
+				case "🍒" -> bet * 2;
+				case "🍉" -> bet * 3;
+				case "🍎" -> bet * 4;
+				case "🍓" -> bet * 5;
+				case "🍋" -> bet * 10;
+				default -> 0;
+			};
+		}
+		else if (row[1].equals(row[2])) {
+			return switch(row[1]) {
+				case "🍒" -> bet * 2;
+				case "🍉" -> bet * 3;
+				case "🍎" -> bet * 4;
+				case "🍓" -> bet * 5;
+				case "🍋" -> bet * 10;
 				default -> 0;
 			};
 		}
