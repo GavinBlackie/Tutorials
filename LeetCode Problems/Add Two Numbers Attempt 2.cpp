@@ -1,0 +1,136 @@
+#include <iostream>
+
+using std::cout;
+using std::endl;
+
+// Given this struct (the constructors are fully defined!!!)
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode() : val(0), next(nullptr) {}
+    ListNode(int x) : val(x), next(nullptr) {}
+    ListNode(int x, ListNode *next) : val(x), next(next) {}
+};
+
+class Solution {
+public:
+    static ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+
+        ListNode* answerList = new ListNode(0); // The final LinkedList to be returned
+
+        ListNode* currAnswer = answerList;
+        ListNode* curr1 = l1;
+        ListNode* curr2 = l2;
+
+        int carry = 0;
+        int sumVal;
+        // Digit-by-digit addition, just like you're taught in school!!
+        while (curr1->next != nullptr || curr2->next != nullptr) {
+            
+            int val1, val2;
+            if ( curr1 != nullptr && curr2 != nullptr) { // If both numbers exist
+                val1 = curr1->val;
+                val2 = curr2->val;
+                sumVal = val1 + val2 + carry;
+                
+                // Move node(s)
+                curr1 = curr1->next;
+                curr2 = curr2->next;
+
+            } else if (curr1 == nullptr && curr2 != nullptr) { // else if only curr2 exists
+                val2 = curr2->val;
+                sumVal = val2 + carry;
+
+                // Move node(s)
+                curr2 = curr2->next;
+            } else if (curr1 != nullptr && curr2 == nullptr){ // else only curr1 exists
+                val1 = curr1->val;
+                sumVal = val1 + carry;
+                
+                // Move node(s)
+                curr1 = curr1->next;
+            } else { // Else neither exist, add the carry and break
+                currAnswer->next = new ListNode(0);
+                currAnswer = currAnswer->next;
+                currAnswer->val = carry;
+                break;
+            }
+
+            if (sumVal >= 10) { // If we get a >=10 value, place that in the carry slot
+                sumVal -= 10;
+                carry = 1;
+            } else { // else there is no carry for the next addition
+		        carry = 0;	
+	        }
+
+            // Place the digit we just obtained into the answer list
+            currAnswer->val = sumVal;
+
+            // Move to next answer node
+            currAnswer->next = new ListNode(0);
+            currAnswer = currAnswer->next;
+        }
+
+        currAnswer->val = sumVal;
+        if (carry != 0) {
+            currAnswer->next = new ListNode(0);
+            currAnswer = currAnswer->next;
+            currAnswer->val = carry;
+        }
+
+        return answerList;
+    }
+};
+
+// Simple function for printing entire Linked Lists
+void printLinkedList(ListNode* list) {
+    ListNode* curr = list;
+    while (curr != NULL) {
+        cout << " " << curr->val << endl;
+        curr = curr->next;
+    }
+    cout << "\n";
+}
+
+int main() {
+
+    // Creating the test cases!:
+    // ListNode node3 = {1};
+    // ListNode node2 = {2, &node3};
+    // ListNode node1 = {7, &node2};
+    // ListNode* list1 = &node1;
+    // printLinkedList(list1);
+    // ListNode node6 = {2};
+    // ListNode node5 = {5, &node6};
+    // ListNode node4 = {3, &node5};
+    // ListNode* list2 = &node4;
+    // printLinkedList(list2);
+
+    // ListNode node2 = {2};
+    // ListNode node1 = {7, &node2};
+    // ListNode* list1 = &node1;
+    // printLinkedList(list1);
+    // ListNode node4 = {3};
+    // ListNode node3 = {1, &node4};
+    // ListNode* list2 = &node3;
+    // printLinkedList(list2);
+
+    ListNode node3 = {9};
+    ListNode node2 = {9, &node3};
+    ListNode node1 = {9, &node2};
+    ListNode* list1 = &node1;
+    printLinkedList(list1);
+    ListNode node7 = {9};
+    ListNode node6 = {9, &node7};
+    ListNode node5 = {9, &node6};
+    ListNode node4 = {9, &node5};
+    ListNode* list2 = &node4;
+    printLinkedList(list2);
+
+	ListNode* sumList = Solution::addTwoNumbers(list1, list2);
+	printLinkedList(sumList);
+
+    return 0;
+}
+
+
