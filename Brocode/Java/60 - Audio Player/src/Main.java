@@ -28,8 +28,10 @@ public class Main {
 			Clip clip = AudioSystem.getClip();
 			clip.open(audioStream);
 			
-			clip.start(); // a clip needs to be looped!
+			// clip.start(); // a clip needs to be looped!
 			
+			// Continually present options to the user,
+			// allow clip to continually play
 			String response = "";
 			while (!response.equals("Q")) {
 				System.out.println("P => Play");
@@ -39,6 +41,13 @@ public class Main {
 				System.out.print("Enter your choice: ");
 				
 				response = scanner.next().strip().toUpperCase();
+				
+				// Process the option (don't need to account for quitting)
+				switch (response) {
+					case "P" -> clip.start();
+					case "S" -> clip.stop();
+					case "R" -> clip.setMicrosecondPosition(0); // Sets to the 0th microsecond, "Resets" 
+				}
 			}
 		}
 		catch (UnsupportedAudioFileException e) {
