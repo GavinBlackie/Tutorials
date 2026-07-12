@@ -31,8 +31,8 @@ int lengthOfLongestSubstring(char* s) {
         printf("%c ", *s);
         // add the current char to the stack
         StackNode node = {*s, NULL};
-        printf("%zu", typeof)
-        curr->next = &node;
+        // printf("%zu", typeof)
+        // curr->next = &node;
         curr = curr->next;
 
         // if that char exists in the stack, break (a duplicate exists!)
