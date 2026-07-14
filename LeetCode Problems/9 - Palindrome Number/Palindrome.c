@@ -55,7 +55,6 @@ bool isPalindrome(int x) {
 	return reverse == y;
 }
 
-
 int main() {
 	
 	// int x = 5;
