@@ -61,27 +61,52 @@ public class Main {
 		boolMap.put("true", true);
 		System.out.println(boolMap.get("falsdfdsfsea"));
 		
+		extractUserInput(String.class,"", "");
+		extractUserInput(Integer.class,"", "");
 		
 		scanner.close();
 	}
 	
-//	private static<T> T extractUserInput(String promptMsg, String errMsg) {
-//		boolean isPrompting = true;
-//		String response = "";
-//		while (isPrompting) {
-//			try {
-//				System.out.print(promptMsg);
-//				response = scanner.nextLine();
-//				
-//				response.
-//				isPrompting = false;
-//			}
-//			catch (InputMismatchException e) {
-//				System.out.print(errMsg);
-//			}
-//		}
-//		
-//		
-//		return (T)response;
-//	}
+	// The non-algoritmic version. 
+	// An explicit "type parameter" is set so we know which
+	// scanner method to call!
+	// (Self note: SWITCHES ONLY WORK ON PRIMITIVES)
+	private static<T> T extractUserInput(T type, String promptMsg, String errMsg) {
+		boolean isPrompting = true;
+		T response;
+		
+		while (isPrompting) {
+			try {
+				System.out.print(promptMsg);
+					
+				if (type == Integer.class) {
+					response = (T) scanner.nextInt();
+				} 
+				else if (type == Double.class) {
+					
+				}
+				else if (type == Float.class) {
+					
+				}
+				else if (type == Boolean.class) {
+					response = 
+				}
+				else if (type == Character.class) {
+					response = (T) scanner.nextLine().charAt(0);
+				}
+				else {
+					response = (T) scanner.nextLine();
+				}
+				
+				isPrompting = false;
+			}
+			catch (InputMismatchException e) {
+				System.out.println(errMsg);
+			}
+			catch (ClassCastException e) {
+				System.out.print("Error when casting");
+			}
+		}
+		return response;
+	}
 }
