@@ -19,6 +19,10 @@ public class Main {
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
 		LocalTime alarmTime;
 		
+		String filePath = "Lithium _ YouTube Audio Library.wav";
+		// ^ got the music from youtube's audio library
+		//   Music ⓒ - Kevin MacLeod
+		
 		System.out.println("The current local time is: " + LocalTime.now().format(formatter));
 		// Extract the desired alarmTime from the user!!
 		alarmTime = extractAlarmTime(formatter); 
@@ -26,10 +30,8 @@ public class Main {
 		displayAlarmTimeDifference(alarmTime);
 		
 		// Create a new thread for the clock and start it
-		Thread alarmThread = new Thread(new AlarmClock(alarmTime));
+		Thread alarmThread = new Thread(new AlarmClock(alarmTime, filePath));
 		alarmThread.start();
-		
-		scanner.close();
 	}
 	
 	/** Function that returns a LocalTime object by asking the user
