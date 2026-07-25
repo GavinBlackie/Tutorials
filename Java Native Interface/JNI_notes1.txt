@@ -1,0 +1,25 @@
+
+JNI = Java Native Interface, allows calling of "native libraries"
+      Native libraries are typically in C or C++
+
+      (many scientific libraries like the GNU Scientific Library
+       are written in C or C++, also called GSL)
+
+    JNI is the "bridge" to call GSL functions
+    
+    (C/C++ code is converted to GSL functions, Java uses JNI to call them)
+
+    Step 1 => add "native" methods to class, compile it into class file
+    Step 2 => use "javah" or "javac-h" to create the header file for the compiled class file
+    Step 3 => create C/C++ project, write source code by importing the java header file
+    Step 4 => compile C/C++ code and create shared library (*.dll, *.dylib, *.so)
+
+    After creating native lib with JNI headers:
+    Step 1: add dll to java path -Djava.library.path = /path to dynamic library
+    Step 2: load dll before calling native method,
+            done using static initializers
+
+            static {
+                System.loadLibrary("lib name"); // <- no ".lib" in the path or name
+            }
+      
