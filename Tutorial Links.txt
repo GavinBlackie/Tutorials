@@ -1,0 +1,16 @@
+This text file is intended as a reference of some of the
+useful videos I used to practice and learn various programming languages
+and computer science concepts (outside of school taught stuff)!!
+
+*** Brocode Tutorials ***
+
+6+ Hour C:                      https://youtu.be/xND0t1pr3KY
+6  Hour C++:                    https://youtu.be/-TkoO8Z07hI
+12 Hour Python:                 https://www.youtube.com/watch?v=ix9cRaBkVe0
+12 Hour Java:                   https://www.youtube.com/watch?v=xTtL8E4LzTQ
+HTML/CSS:                       https://youtu.be/HGTJBPNC-Gw
+Data Structures & Algorithms:   https://youtu.be/xTtL8E4LzTQ
+
+*************************
+
+JNI (Java Native Interface): https://www.youtube.com/watch?v=pyXnX2SEaFc
