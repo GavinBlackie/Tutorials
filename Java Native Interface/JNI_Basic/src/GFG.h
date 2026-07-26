@@ -15,6 +15,14 @@ extern "C" {
 JNIEXPORT void JNICALL Java_GFG_print_1Hello
   (JNIEnv *, jobject);
 
+/*
+ * Class:     GFG
+ * Method:    multiply
+ * Signature: (DD)D
+ */
+JNIEXPORT jdouble JNICALL Java_GFG_multiply
+  (JNIEnv *, jobject, jdouble, jdouble);
+
 #ifdef __cplusplus
 }
 #endif
