@@ -25,7 +25,6 @@ public class GFG {
 	public native double multiply(double a, double b);
 	
 	public static void main(String[] args) {
-		autoCompileJNICode();
 		
 		System.out.println("Java & C++ JNI Test!");
 		GFG gfg = new GFG();
