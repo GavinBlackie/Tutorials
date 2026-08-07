@@ -26,6 +26,9 @@ public class Main {
         stack.pop(); // Remove the topmost object
 
         System.out.println(stack); // Printing whole stack
+        stack.pop();
+        System.out.println("*POP*");
+        System.out.println(stack);
         
         // Use peek() method to see top of the stack
         System.out.println("Top of stack: " + stack.peek());
