@@ -66,6 +66,8 @@ print(fruits)
 fruits.clear()
 print(fruits)
 
+fruits = ["apple", "pineapple", "pear", "orange", "banana", "lime", "coconut"]
+
 # index => prints index of an element
 print(fruits.index("apple"))
 try:
@@ -79,3 +81,60 @@ print(fruits.count("banana"))
 fruits.insert(3, "banana")
 print(fruits)
 print(fruits.count("banana"))
+
+# ---- Sets ----
+print("\n************* Sets ****************\n")
+
+fruits = {"apple", "orange", "banana", "coconut", "lime", "lemon", "peach"}
+print(fruits)
+# print(dir(fruits)) # remember: dir gives some help about a type!
+# print(help(fruits))
+try:
+    print(fruits[0])
+except TypeError:
+    print("Cannot access a set by index, sets are NOT indexed/are NOT sequential")
+
+fruits.add("pineapple")
+fruits.remove("apple")
+fruits.remove("banana")
+fruits.remove("coconut")
+try:
+    fruits.remove("a")
+except KeyError:
+    print("That key does not exist, silly!")
+
+epicFruits = {"lime", "lemon"}
+
+print(epicFruits.issubset(fruits)) # true
+
+# pop => remove whatever element is "first"
+print()
+print(fruits)
+fruits.pop()
+print("\n*pop*\n")
+print(fruits)
+
+fruits.pop()
+print("\n*pop*\n")
+fruits.pop()
+print("\n*pop*\n")
+
+print(epicFruits.issubset(fruits)) # false
+
+# has no effect - lime is already present, and no exceptions are ever raised
+fruits.add("lime")
+
+# "Sets are good for constants!!"
+
+fruits.clear()
+
+
+print("\n************** Tuples *********************\n")
+# print(dir(tuple))
+grades = (3.5, 3.3, 3.2, 2.7, 2.9, 2.1, 2.3, 4.0, 2.6, 3.4, 2.1)
+
+print(grades)
+print(len(grades))
+
+for grade in grades:
+    print(grade)
