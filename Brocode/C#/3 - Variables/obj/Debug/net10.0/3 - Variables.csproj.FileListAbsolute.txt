@@ -1,0 +1,15 @@
+C:\Projects\Personal\Tutorials\Brocode\C#\3 - Variables\bin\Debug\net10.0\3 - Variables.exe
+C:\Projects\Personal\Tutorials\Brocode\C#\3 - Variables\bin\Debug\net10.0\3 - Variables.deps.json
+C:\Projects\Personal\Tutorials\Brocode\C#\3 - Variables\bin\Debug\net10.0\3 - Variables.runtimeconfig.json
+C:\Projects\Personal\Tutorials\Brocode\C#\3 - Variables\bin\Debug\net10.0\3 - Variables.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\3 - Variables\bin\Debug\net10.0\3 - Variables.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\3 - Variables\obj\Debug\net10.0\3 - Variables.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Personal\Tutorials\Brocode\C#\3 - Variables\obj\Debug\net10.0\3 - Variables.AssemblyInfoInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\3 - Variables\obj\Debug\net10.0\3 - Variables.AssemblyInfo.cs
+C:\Projects\Personal\Tutorials\Brocode\C#\3 - Variables\obj\Debug\net10.0\3 - Variables.csproj.CoreCompileInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\3 - Variables\obj\Debug\net10.0\3 - Variables.sourcelink.json
+C:\Projects\Personal\Tutorials\Brocode\C#\3 - Variables\obj\Debug\net10.0\3 - Variables.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\3 - Variables\obj\Debug\net10.0\refint\3 - Variables.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\3 - Variables\obj\Debug\net10.0\3 - Variables.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\3 - Variables\obj\Debug\net10.0\3 - Variables.genruntimeconfig.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\3 - Variables\obj\Debug\net10.0\ref\3 - Variables.dll
