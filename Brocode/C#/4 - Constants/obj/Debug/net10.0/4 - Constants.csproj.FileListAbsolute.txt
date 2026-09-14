@@ -1,0 +1,16 @@
+C:\Projects\Personal\Tutorials\Brocode\C#\4 - Constants\bin\Debug\net10.0\4 - Constants.exe
+C:\Projects\Personal\Tutorials\Brocode\C#\4 - Constants\bin\Debug\net10.0\4 - Constants.deps.json
+C:\Projects\Personal\Tutorials\Brocode\C#\4 - Constants\bin\Debug\net10.0\4 - Constants.runtimeconfig.json
+C:\Projects\Personal\Tutorials\Brocode\C#\4 - Constants\bin\Debug\net10.0\4 - Constants.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\4 - Constants\bin\Debug\net10.0\4 - Constants.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\4 - Constants\obj\Debug\net10.0\4 - Constants.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Personal\Tutorials\Brocode\C#\4 - Constants\obj\Debug\net10.0\4 - Constants.AssemblyInfoInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\4 - Constants\obj\Debug\net10.0\4 - Constants.AssemblyInfo.cs
+C:\Projects\Personal\Tutorials\Brocode\C#\4 - Constants\obj\Debug\net10.0\4 - Constants.csproj.CoreCompileInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\4 - Constants\obj\Debug\net10.0\4 - Constants.sourcelink.json
+C:\Projects\Personal\Tutorials\Brocode\C#\4 - Constants\obj\Debug\net10.0\4 - Constants.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\4 - Constants\obj\Debug\net10.0\refint\4 - Constants.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\4 - Constants\obj\Debug\net10.0\4 - Constants.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\4 - Constants\obj\Debug\net10.0\4 - Constants.genruntimeconfig.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\4 - Constants\obj\Debug\net10.0\ref\4 - Constants.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\4 - Constants\obj\Debug\net10.0\4 - Cons.6DB6FC3A.Up2Date
