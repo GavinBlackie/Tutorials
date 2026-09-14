@@ -1,0 +1,16 @@
+C:\Projects\Personal\Tutorials\Brocode\C#\5 - Type Casting\bin\Debug\net10.0\5 - Type Casting.exe
+C:\Projects\Personal\Tutorials\Brocode\C#\5 - Type Casting\bin\Debug\net10.0\5 - Type Casting.deps.json
+C:\Projects\Personal\Tutorials\Brocode\C#\5 - Type Casting\bin\Debug\net10.0\5 - Type Casting.runtimeconfig.json
+C:\Projects\Personal\Tutorials\Brocode\C#\5 - Type Casting\bin\Debug\net10.0\5 - Type Casting.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\5 - Type Casting\bin\Debug\net10.0\5 - Type Casting.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\5 - Type Casting\obj\Debug\net10.0\5 - Type Casting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Personal\Tutorials\Brocode\C#\5 - Type Casting\obj\Debug\net10.0\5 - Type Casting.AssemblyInfoInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\5 - Type Casting\obj\Debug\net10.0\5 - Type Casting.AssemblyInfo.cs
+C:\Projects\Personal\Tutorials\Brocode\C#\5 - Type Casting\obj\Debug\net10.0\5 - Type Casting.csproj.CoreCompileInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\5 - Type Casting\obj\Debug\net10.0\5 - Type Casting.sourcelink.json
+C:\Projects\Personal\Tutorials\Brocode\C#\5 - Type Casting\obj\Debug\net10.0\5 - Type Casting.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\5 - Type Casting\obj\Debug\net10.0\refint\5 - Type Casting.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\5 - Type Casting\obj\Debug\net10.0\5 - Type Casting.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\5 - Type Casting\obj\Debug\net10.0\5 - Type Casting.genruntimeconfig.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\5 - Type Casting\obj\Debug\net10.0\ref\5 - Type Casting.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\5 - Type Casting\obj\Debug\net10.0\5 - Type.819B0412.Up2Date

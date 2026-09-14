@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\3 - Variables\\3 - Variables.csproj",
-      "projectName": "3 - Variables",
-      "projectPath": "C:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\3 - Variables\\3 - Variables.csproj",
+      "projectUniqueName": "C:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\5 - Type Casting\\5 - Type Casting.csproj",
+      "projectName": "5 - Type Casting",
+      "projectPath": "C:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\5 - Type Casting\\5 - Type Casting.csproj",
       "packagesPath": "C:\\Users\\gavin\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\3 - Variables\\obj\\",
+      "outputPath": "C:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\5 - Type Casting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
