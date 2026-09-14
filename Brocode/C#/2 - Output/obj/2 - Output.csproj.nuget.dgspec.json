@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\5 - Type Casting\\5 - Type Casting.csproj": {}
+    "c:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\2 - Output\\2 - Output.csproj": {}
   },
   "projects": {
-    "c:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\5 - Type Casting\\5 - Type Casting.csproj": {
+    "c:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\2 - Output\\2 - Output.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\5 - Type Casting\\5 - Type Casting.csproj",
-        "projectName": "5 - Type Casting",
-        "projectPath": "c:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\5 - Type Casting\\5 - Type Casting.csproj",
+        "projectUniqueName": "c:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\2 - Output\\2 - Output.csproj",
+        "projectName": "2 - Output",
+        "projectPath": "c:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\2 - Output\\2 - Output.csproj",
         "packagesPath": "C:\\Users\\gavin\\.nuget\\packages\\",
-        "outputPath": "c:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\5 - Type Casting\\obj\\",
+        "outputPath": "c:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\2 - Output\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

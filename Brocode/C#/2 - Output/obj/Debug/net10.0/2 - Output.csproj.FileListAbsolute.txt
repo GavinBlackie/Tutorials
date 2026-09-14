@@ -1,0 +1,16 @@
+C:\Projects\Personal\Tutorials\Brocode\C#\2 - Output\bin\Debug\net10.0\2 - Output.exe
+C:\Projects\Personal\Tutorials\Brocode\C#\2 - Output\bin\Debug\net10.0\2 - Output.deps.json
+C:\Projects\Personal\Tutorials\Brocode\C#\2 - Output\bin\Debug\net10.0\2 - Output.runtimeconfig.json
+C:\Projects\Personal\Tutorials\Brocode\C#\2 - Output\bin\Debug\net10.0\2 - Output.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\2 - Output\bin\Debug\net10.0\2 - Output.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\2 - Output\obj\Debug\net10.0\2 - Output.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Personal\Tutorials\Brocode\C#\2 - Output\obj\Debug\net10.0\2 - Output.AssemblyInfoInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\2 - Output\obj\Debug\net10.0\2 - Output.AssemblyInfo.cs
+C:\Projects\Personal\Tutorials\Brocode\C#\2 - Output\obj\Debug\net10.0\2 - Output.csproj.CoreCompileInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\2 - Output\obj\Debug\net10.0\2 - Output.sourcelink.json
+C:\Projects\Personal\Tutorials\Brocode\C#\2 - Output\obj\Debug\net10.0\2 - Output.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\2 - Output\obj\Debug\net10.0\refint\2 - Output.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\2 - Output\obj\Debug\net10.0\2 - Output.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\2 - Output\obj\Debug\net10.0\2 - Output.genruntimeconfig.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\2 - Output\obj\Debug\net10.0\ref\2 - Output.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\2 - Output\obj\Debug\net10.0\2 - Output.csproj.Up2Date

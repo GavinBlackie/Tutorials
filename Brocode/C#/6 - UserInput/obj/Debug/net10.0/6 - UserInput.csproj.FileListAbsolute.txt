@@ -1,0 +1,16 @@
+C:\Projects\Personal\Tutorials\Brocode\C#\6 - UserInput\bin\Debug\net10.0\6 - UserInput.exe
+C:\Projects\Personal\Tutorials\Brocode\C#\6 - UserInput\bin\Debug\net10.0\6 - UserInput.deps.json
+C:\Projects\Personal\Tutorials\Brocode\C#\6 - UserInput\bin\Debug\net10.0\6 - UserInput.runtimeconfig.json
+C:\Projects\Personal\Tutorials\Brocode\C#\6 - UserInput\bin\Debug\net10.0\6 - UserInput.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\6 - UserInput\bin\Debug\net10.0\6 - UserInput.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\6 - UserInput\obj\Debug\net10.0\6 - UserInput.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Personal\Tutorials\Brocode\C#\6 - UserInput\obj\Debug\net10.0\6 - UserInput.AssemblyInfoInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\6 - UserInput\obj\Debug\net10.0\6 - UserInput.AssemblyInfo.cs
+C:\Projects\Personal\Tutorials\Brocode\C#\6 - UserInput\obj\Debug\net10.0\6 - UserInput.csproj.CoreCompileInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\6 - UserInput\obj\Debug\net10.0\6 - UserInput.sourcelink.json
+C:\Projects\Personal\Tutorials\Brocode\C#\6 - UserInput\obj\Debug\net10.0\6 - UserInput.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\6 - UserInput\obj\Debug\net10.0\refint\6 - UserInput.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\6 - UserInput\obj\Debug\net10.0\6 - UserInput.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\6 - UserInput\obj\Debug\net10.0\6 - UserInput.genruntimeconfig.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\6 - UserInput\obj\Debug\net10.0\ref\6 - UserInput.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\6 - UserInput\obj\Debug\net10.0\6 - User.8F52F5DC.Up2Date
