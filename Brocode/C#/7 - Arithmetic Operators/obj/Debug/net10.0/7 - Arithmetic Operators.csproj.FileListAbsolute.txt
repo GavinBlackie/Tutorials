@@ -1,0 +1,16 @@
+C:\Projects\Personal\Tutorials\Brocode\C#\7 - Arithmetic Operators\bin\Debug\net10.0\7 - Arithmetic Operators.exe
+C:\Projects\Personal\Tutorials\Brocode\C#\7 - Arithmetic Operators\bin\Debug\net10.0\7 - Arithmetic Operators.deps.json
+C:\Projects\Personal\Tutorials\Brocode\C#\7 - Arithmetic Operators\bin\Debug\net10.0\7 - Arithmetic Operators.runtimeconfig.json
+C:\Projects\Personal\Tutorials\Brocode\C#\7 - Arithmetic Operators\bin\Debug\net10.0\7 - Arithmetic Operators.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\7 - Arithmetic Operators\bin\Debug\net10.0\7 - Arithmetic Operators.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\7 - Arithmetic Operators\obj\Debug\net10.0\7 - Arithmetic Operators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Personal\Tutorials\Brocode\C#\7 - Arithmetic Operators\obj\Debug\net10.0\7 - Arithmetic Operators.AssemblyInfoInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\7 - Arithmetic Operators\obj\Debug\net10.0\7 - Arithmetic Operators.AssemblyInfo.cs
+C:\Projects\Personal\Tutorials\Brocode\C#\7 - Arithmetic Operators\obj\Debug\net10.0\7 - Arithmetic Operators.csproj.CoreCompileInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\7 - Arithmetic Operators\obj\Debug\net10.0\7 - Arithmetic Operators.sourcelink.json
+C:\Projects\Personal\Tutorials\Brocode\C#\7 - Arithmetic Operators\obj\Debug\net10.0\7 - Arithmetic Operators.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\7 - Arithmetic Operators\obj\Debug\net10.0\refint\7 - Arithmetic Operators.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\7 - Arithmetic Operators\obj\Debug\net10.0\7 - Arithmetic Operators.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\7 - Arithmetic Operators\obj\Debug\net10.0\7 - Arithmetic Operators.genruntimeconfig.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\7 - Arithmetic Operators\obj\Debug\net10.0\ref\7 - Arithmetic Operators.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\7 - Arithmetic Operators\obj\Debug\net10.0\7 - Arit.FE9E9B82.Up2Date

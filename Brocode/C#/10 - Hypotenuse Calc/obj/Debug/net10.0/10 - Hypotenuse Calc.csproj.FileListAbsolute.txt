@@ -1,0 +1,16 @@
+C:\Projects\Personal\Tutorials\Brocode\C#\10 - Hypotenuse Calc\bin\Debug\net10.0\10 - Hypotenuse Calc.exe
+C:\Projects\Personal\Tutorials\Brocode\C#\10 - Hypotenuse Calc\bin\Debug\net10.0\10 - Hypotenuse Calc.deps.json
+C:\Projects\Personal\Tutorials\Brocode\C#\10 - Hypotenuse Calc\bin\Debug\net10.0\10 - Hypotenuse Calc.runtimeconfig.json
+C:\Projects\Personal\Tutorials\Brocode\C#\10 - Hypotenuse Calc\bin\Debug\net10.0\10 - Hypotenuse Calc.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\10 - Hypotenuse Calc\bin\Debug\net10.0\10 - Hypotenuse Calc.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\10 - Hypotenuse Calc\obj\Debug\net10.0\10 - Hypotenuse Calc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Personal\Tutorials\Brocode\C#\10 - Hypotenuse Calc\obj\Debug\net10.0\10 - Hypotenuse Calc.AssemblyInfoInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\10 - Hypotenuse Calc\obj\Debug\net10.0\10 - Hypotenuse Calc.AssemblyInfo.cs
+C:\Projects\Personal\Tutorials\Brocode\C#\10 - Hypotenuse Calc\obj\Debug\net10.0\10 - Hypotenuse Calc.csproj.CoreCompileInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\10 - Hypotenuse Calc\obj\Debug\net10.0\10 - Hypotenuse Calc.sourcelink.json
+C:\Projects\Personal\Tutorials\Brocode\C#\10 - Hypotenuse Calc\obj\Debug\net10.0\10 - Hypotenuse Calc.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\10 - Hypotenuse Calc\obj\Debug\net10.0\refint\10 - Hypotenuse Calc.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\10 - Hypotenuse Calc\obj\Debug\net10.0\10 - Hypotenuse Calc.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\10 - Hypotenuse Calc\obj\Debug\net10.0\10 - Hypotenuse Calc.genruntimeconfig.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\10 - Hypotenuse Calc\obj\Debug\net10.0\ref\10 - Hypotenuse Calc.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\10 - Hypotenuse Calc\obj\Debug\net10.0\10 - Hyp.88624E03.Up2Date

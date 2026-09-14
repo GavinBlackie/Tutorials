@@ -1,0 +1,16 @@
+C:\Projects\Personal\Tutorials\Brocode\C#\9 - Random Numbers\bin\Debug\net10.0\9 - Random Numbers.exe
+C:\Projects\Personal\Tutorials\Brocode\C#\9 - Random Numbers\bin\Debug\net10.0\9 - Random Numbers.deps.json
+C:\Projects\Personal\Tutorials\Brocode\C#\9 - Random Numbers\bin\Debug\net10.0\9 - Random Numbers.runtimeconfig.json
+C:\Projects\Personal\Tutorials\Brocode\C#\9 - Random Numbers\bin\Debug\net10.0\9 - Random Numbers.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\9 - Random Numbers\bin\Debug\net10.0\9 - Random Numbers.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\9 - Random Numbers\obj\Debug\net10.0\9 - Random Numbers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Personal\Tutorials\Brocode\C#\9 - Random Numbers\obj\Debug\net10.0\9 - Random Numbers.AssemblyInfoInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\9 - Random Numbers\obj\Debug\net10.0\9 - Random Numbers.AssemblyInfo.cs
+C:\Projects\Personal\Tutorials\Brocode\C#\9 - Random Numbers\obj\Debug\net10.0\9 - Random Numbers.csproj.CoreCompileInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\9 - Random Numbers\obj\Debug\net10.0\9 - Random Numbers.sourcelink.json
+C:\Projects\Personal\Tutorials\Brocode\C#\9 - Random Numbers\obj\Debug\net10.0\9 - Random Numbers.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\9 - Random Numbers\obj\Debug\net10.0\refint\9 - Random Numbers.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\9 - Random Numbers\obj\Debug\net10.0\9 - Random Numbers.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\9 - Random Numbers\obj\Debug\net10.0\9 - Random Numbers.genruntimeconfig.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\9 - Random Numbers\obj\Debug\net10.0\ref\9 - Random Numbers.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\9 - Random Numbers\obj\Debug\net10.0\9 - Rand.F4A47714.Up2Date

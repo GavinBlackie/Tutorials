@@ -1,0 +1,16 @@
+C:\Projects\Personal\Tutorials\Brocode\C#\8 - Math Class\bin\Debug\net10.0\8 - Math Class.exe
+C:\Projects\Personal\Tutorials\Brocode\C#\8 - Math Class\bin\Debug\net10.0\8 - Math Class.deps.json
+C:\Projects\Personal\Tutorials\Brocode\C#\8 - Math Class\bin\Debug\net10.0\8 - Math Class.runtimeconfig.json
+C:\Projects\Personal\Tutorials\Brocode\C#\8 - Math Class\bin\Debug\net10.0\8 - Math Class.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\8 - Math Class\bin\Debug\net10.0\8 - Math Class.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\8 - Math Class\obj\Debug\net10.0\8 - Math Class.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Personal\Tutorials\Brocode\C#\8 - Math Class\obj\Debug\net10.0\8 - Math Class.AssemblyInfoInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\8 - Math Class\obj\Debug\net10.0\8 - Math Class.AssemblyInfo.cs
+C:\Projects\Personal\Tutorials\Brocode\C#\8 - Math Class\obj\Debug\net10.0\8 - Math Class.csproj.CoreCompileInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\8 - Math Class\obj\Debug\net10.0\8 - Math Class.sourcelink.json
+C:\Projects\Personal\Tutorials\Brocode\C#\8 - Math Class\obj\Debug\net10.0\8 - Math Class.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\8 - Math Class\obj\Debug\net10.0\refint\8 - Math Class.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\8 - Math Class\obj\Debug\net10.0\8 - Math Class.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\8 - Math Class\obj\Debug\net10.0\8 - Math Class.genruntimeconfig.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\8 - Math Class\obj\Debug\net10.0\ref\8 - Math Class.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\8 - Math Class\obj\Debug\net10.0\8 - Math.66904CD4.Up2Date
