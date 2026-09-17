@@ -1,0 +1,16 @@
+C:\Projects\Personal\Tutorials\Brocode\C#\11 - String Methods\bin\Debug\net10.0\11 - String Methods.exe
+C:\Projects\Personal\Tutorials\Brocode\C#\11 - String Methods\bin\Debug\net10.0\11 - String Methods.deps.json
+C:\Projects\Personal\Tutorials\Brocode\C#\11 - String Methods\bin\Debug\net10.0\11 - String Methods.runtimeconfig.json
+C:\Projects\Personal\Tutorials\Brocode\C#\11 - String Methods\bin\Debug\net10.0\11 - String Methods.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\11 - String Methods\bin\Debug\net10.0\11 - String Methods.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\11 - String Methods\obj\Debug\net10.0\11 - String Methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Personal\Tutorials\Brocode\C#\11 - String Methods\obj\Debug\net10.0\11 - String Methods.AssemblyInfoInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\11 - String Methods\obj\Debug\net10.0\11 - String Methods.AssemblyInfo.cs
+C:\Projects\Personal\Tutorials\Brocode\C#\11 - String Methods\obj\Debug\net10.0\11 - String Methods.csproj.CoreCompileInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\11 - String Methods\obj\Debug\net10.0\11 - String Methods.sourcelink.json
+C:\Projects\Personal\Tutorials\Brocode\C#\11 - String Methods\obj\Debug\net10.0\11 - String Methods.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\11 - String Methods\obj\Debug\net10.0\refint\11 - String Methods.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\11 - String Methods\obj\Debug\net10.0\11 - String Methods.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\11 - String Methods\obj\Debug\net10.0\11 - String Methods.genruntimeconfig.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\11 - String Methods\obj\Debug\net10.0\ref\11 - String Methods.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\11 - String Methods\obj\Debug\net10.0\11 - Str.7ABCA690.Up2Date
