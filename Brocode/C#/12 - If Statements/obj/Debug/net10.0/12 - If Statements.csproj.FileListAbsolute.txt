@@ -1,0 +1,16 @@
+C:\Projects\Personal\Tutorials\Brocode\C#\12 - If Statements\bin\Debug\net10.0\12 - If Statements.exe
+C:\Projects\Personal\Tutorials\Brocode\C#\12 - If Statements\bin\Debug\net10.0\12 - If Statements.deps.json
+C:\Projects\Personal\Tutorials\Brocode\C#\12 - If Statements\bin\Debug\net10.0\12 - If Statements.runtimeconfig.json
+C:\Projects\Personal\Tutorials\Brocode\C#\12 - If Statements\bin\Debug\net10.0\12 - If Statements.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\12 - If Statements\bin\Debug\net10.0\12 - If Statements.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\12 - If Statements\obj\Debug\net10.0\12 - If Statements.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Personal\Tutorials\Brocode\C#\12 - If Statements\obj\Debug\net10.0\12 - If Statements.AssemblyInfoInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\12 - If Statements\obj\Debug\net10.0\12 - If Statements.AssemblyInfo.cs
+C:\Projects\Personal\Tutorials\Brocode\C#\12 - If Statements\obj\Debug\net10.0\12 - If Statements.csproj.CoreCompileInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\12 - If Statements\obj\Debug\net10.0\12 - If Statements.sourcelink.json
+C:\Projects\Personal\Tutorials\Brocode\C#\12 - If Statements\obj\Debug\net10.0\12 - If Statements.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\12 - If Statements\obj\Debug\net10.0\refint\12 - If Statements.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\12 - If Statements\obj\Debug\net10.0\12 - If Statements.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\12 - If Statements\obj\Debug\net10.0\12 - If Statements.genruntimeconfig.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\12 - If Statements\obj\Debug\net10.0\ref\12 - If Statements.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\12 - If Statements\obj\Debug\net10.0\12 - If .443AE553.Up2Date

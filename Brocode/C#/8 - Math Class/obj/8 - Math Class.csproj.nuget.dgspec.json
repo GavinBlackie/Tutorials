@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\8 - Math Class\\8 - Math Class.csproj": {}
+    "C:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\8 - Math Class\\8 - Math Class.csproj": {}
   },
   "projects": {
-    "c:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\8 - Math Class\\8 - Math Class.csproj": {
+    "C:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\8 - Math Class\\8 - Math Class.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\8 - Math Class\\8 - Math Class.csproj",
+        "projectUniqueName": "C:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\8 - Math Class\\8 - Math Class.csproj",
         "projectName": "8 - Math Class",
-        "projectPath": "c:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\8 - Math Class\\8 - Math Class.csproj",
+        "projectPath": "C:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\8 - Math Class\\8 - Math Class.csproj",
         "packagesPath": "C:\\Users\\gavin\\.nuget\\packages\\",
-        "outputPath": "c:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\8 - Math Class\\obj\\",
+        "outputPath": "C:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\8 - Math Class\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

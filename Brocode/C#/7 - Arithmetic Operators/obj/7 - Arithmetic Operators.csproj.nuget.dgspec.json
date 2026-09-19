@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\7 - Arithmetic Operators\\7 - Arithmetic Operators.csproj": {}
+    "C:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\7 - Arithmetic Operators\\7 - Arithmetic Operators.csproj": {}
   },
   "projects": {
-    "c:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\7 - Arithmetic Operators\\7 - Arithmetic Operators.csproj": {
+    "C:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\7 - Arithmetic Operators\\7 - Arithmetic Operators.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\7 - Arithmetic Operators\\7 - Arithmetic Operators.csproj",
+        "projectUniqueName": "C:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\7 - Arithmetic Operators\\7 - Arithmetic Operators.csproj",
         "projectName": "7 - Arithmetic Operators",
-        "projectPath": "c:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\7 - Arithmetic Operators\\7 - Arithmetic Operators.csproj",
+        "projectPath": "C:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\7 - Arithmetic Operators\\7 - Arithmetic Operators.csproj",
         "packagesPath": "C:\\Users\\gavin\\.nuget\\packages\\",
-        "outputPath": "c:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\7 - Arithmetic Operators\\obj\\",
+        "outputPath": "C:\\Projects\\Personal\\Tutorials\\Brocode\\C#\\7 - Arithmetic Operators\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,16 @@
+C:\Projects\Personal\Tutorials\Brocode\C#\13 - Switches\bin\Debug\net10.0\13 - Switches.exe
+C:\Projects\Personal\Tutorials\Brocode\C#\13 - Switches\bin\Debug\net10.0\13 - Switches.deps.json
+C:\Projects\Personal\Tutorials\Brocode\C#\13 - Switches\bin\Debug\net10.0\13 - Switches.runtimeconfig.json
+C:\Projects\Personal\Tutorials\Brocode\C#\13 - Switches\bin\Debug\net10.0\13 - Switches.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\13 - Switches\bin\Debug\net10.0\13 - Switches.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\13 - Switches\obj\Debug\net10.0\13 - Switches.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Personal\Tutorials\Brocode\C#\13 - Switches\obj\Debug\net10.0\13 - Switches.AssemblyInfoInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\13 - Switches\obj\Debug\net10.0\13 - Switches.AssemblyInfo.cs
+C:\Projects\Personal\Tutorials\Brocode\C#\13 - Switches\obj\Debug\net10.0\13 - Switches.csproj.CoreCompileInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\13 - Switches\obj\Debug\net10.0\13 - Switches.sourcelink.json
+C:\Projects\Personal\Tutorials\Brocode\C#\13 - Switches\obj\Debug\net10.0\13 - Switches.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\13 - Switches\obj\Debug\net10.0\refint\13 - Switches.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\13 - Switches\obj\Debug\net10.0\13 - Switches.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\13 - Switches\obj\Debug\net10.0\13 - Switches.genruntimeconfig.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\13 - Switches\obj\Debug\net10.0\ref\13 - Switches.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\13 - Switches\obj\Debug\net10.0\13 - Swi.9697A1F0.Up2Date
