@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "50 - Multithreading/1.0.0": {
+        "runtime": {
+          "50 - Multithreading.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "50 - Multithreading/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,16 @@
+C:\Projects\Personal\Tutorials\Brocode\C#\50 - Multithreading\bin\Debug\net10.0\50 - Multithreading.exe
+C:\Projects\Personal\Tutorials\Brocode\C#\50 - Multithreading\bin\Debug\net10.0\50 - Multithreading.deps.json
+C:\Projects\Personal\Tutorials\Brocode\C#\50 - Multithreading\bin\Debug\net10.0\50 - Multithreading.runtimeconfig.json
+C:\Projects\Personal\Tutorials\Brocode\C#\50 - Multithreading\bin\Debug\net10.0\50 - Multithreading.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\50 - Multithreading\bin\Debug\net10.0\50 - Multithreading.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\50 - Multithreading\obj\Debug\net10.0\50 - Multithreading.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Personal\Tutorials\Brocode\C#\50 - Multithreading\obj\Debug\net10.0\50 - Multithreading.AssemblyInfoInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\50 - Multithreading\obj\Debug\net10.0\50 - Multithreading.AssemblyInfo.cs
+C:\Projects\Personal\Tutorials\Brocode\C#\50 - Multithreading\obj\Debug\net10.0\50 - Multithreading.csproj.CoreCompileInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\50 - Multithreading\obj\Debug\net10.0\50 - Multithreading.sourcelink.json
+C:\Projects\Personal\Tutorials\Brocode\C#\50 - Multithreading\obj\Debug\net10.0\50 - Multithreading.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\50 - Multithreading\obj\Debug\net10.0\refint\50 - Multithreading.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\50 - Multithreading\obj\Debug\net10.0\50 - Multithreading.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\50 - Multithreading\obj\Debug\net10.0\50 - Multithreading.genruntimeconfig.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\50 - Multithreading\obj\Debug\net10.0\ref\50 - Multithreading.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\50 - Multithreading\obj\Debug\net10.0\50 - Mul.3C86B2AC.Up2Date
