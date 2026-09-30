@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2 - Jean & Gavin</title>
+</head>
+<body>
+    <h1>Test Webpage</h1>
+    <p>This is a test webpage for Lab 2 in AWS, implementing CORS with buckets.</p>
+
+    <img src="https://lab2bucketjg.s3.us-east-1.amazonaws.com/Tulips.jpeg" 
+        alt="Image of a tulip"
+        height="200"/>
+    <p>Here is an image of a tulip!</p>
+
+    <div id="output">Loading...</div>
+    <script>
+        fetch('https://lab2-data-[yourlearnerid].s3.amazonaws.com/data.json')
+            .then( r => r.json() )
+            .then( data => document.getElementById("output").innerText = data)
+            .catch(err => document.getElementById("output").innerText = "Failed")
+    </script>
+</body>
+</html>
