@@ -1,0 +1,16 @@
+C:\Projects\Personal\Tutorials\Brocode\C#\44 - Lists\bin\Debug\net10.0\44 - Lists.exe
+C:\Projects\Personal\Tutorials\Brocode\C#\44 - Lists\bin\Debug\net10.0\44 - Lists.deps.json
+C:\Projects\Personal\Tutorials\Brocode\C#\44 - Lists\bin\Debug\net10.0\44 - Lists.runtimeconfig.json
+C:\Projects\Personal\Tutorials\Brocode\C#\44 - Lists\bin\Debug\net10.0\44 - Lists.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\44 - Lists\bin\Debug\net10.0\44 - Lists.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\44 - Lists\obj\Debug\net10.0\44 - Lists.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Personal\Tutorials\Brocode\C#\44 - Lists\obj\Debug\net10.0\44 - Lists.AssemblyInfoInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\44 - Lists\obj\Debug\net10.0\44 - Lists.AssemblyInfo.cs
+C:\Projects\Personal\Tutorials\Brocode\C#\44 - Lists\obj\Debug\net10.0\44 - Lists.csproj.CoreCompileInputs.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\44 - Lists\obj\Debug\net10.0\44 - Lists.sourcelink.json
+C:\Projects\Personal\Tutorials\Brocode\C#\44 - Lists\obj\Debug\net10.0\44 - Lists.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\44 - Lists\obj\Debug\net10.0\refint\44 - Lists.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\44 - Lists\obj\Debug\net10.0\44 - Lists.pdb
+C:\Projects\Personal\Tutorials\Brocode\C#\44 - Lists\obj\Debug\net10.0\44 - Lists.genruntimeconfig.cache
+C:\Projects\Personal\Tutorials\Brocode\C#\44 - Lists\obj\Debug\net10.0\ref\44 - Lists.dll
+C:\Projects\Personal\Tutorials\Brocode\C#\44 - Lists\obj\Debug\net10.0\44 - Lists.csproj.Up2Date
