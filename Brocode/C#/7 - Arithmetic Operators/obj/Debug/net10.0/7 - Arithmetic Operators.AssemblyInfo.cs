@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("7 - Arithmetic Operators")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e595b411fc78d64c537d087c3633546be13810a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7974041dd272af14cbadc5c38d208338516411d8")]
 [assembly: System.Reflection.AssemblyProductAttribute("7 - Arithmetic Operators")]
 [assembly: System.Reflection.AssemblyTitleAttribute("7 - Arithmetic Operators")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,40 @@
+{
+    "Students" : [
+        {
+            "name" : "Spongebob",
+            "age" : 30,
+            "gpa" : 2.3,
+            "program" : "Chemical Engineering"
+        },
+        {
+            "name" : "Squidward",
+            "age" : 40,
+            "gpa" : 3.6,
+            "program" : "Computer Science"
+        },
+        {
+            "name" : "Patrick",
+            "age" : 35,
+            "gpa" : 1.9,
+            "program" : "Pre Med"
+        },
+        {
+            "name" : "Sandy",
+            "age" : 27,
+            "gpa" : 3.9,
+            "program" : "Physics"
+        },
+        {
+            "name" : "Eugine Krabs",
+            "age" : 63,
+            "gpa" : 3.0,
+            "program" : "Business"
+        },
+        {
+            "name" : "Sheldon Plankton",
+            "age" : 62,
+            "gpa" : 3.4,
+            "program" : "Business"
+        }
+    ]
+}
