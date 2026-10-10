@@ -1,0 +1,1 @@
+This repository represents accumulated work I've done on my own time. It is primarily a collection of many small cosing projects to further my programming abilitites.
